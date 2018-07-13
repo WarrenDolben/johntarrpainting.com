@@ -1,0 +1,150 @@
+/*Imports Web Fonts*/
+
+@font-face {
+    font-family: 'copseregular';
+    src: url('copse-regular-webfont.woff2') format('woff2'),
+         url('copse-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'crimsonroman';
+    src: url('crimson-roman-webfont.woff2') format('woff2'),
+         url('crimson-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, nav, #toenail{
+	font-family: 'copseregular';
+}
+
+p, li.qualities{
+	font-family: 'crimsonroman';
+}
+
+
+html{
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+h1{
+	padding: 5rem 5rem 5rem 5rem;
+	color: red;
+	text-shadow: .2rem .2rem .2rem black;
+	font-size: 4rem;
+	background: linear-gradient(to right, lightgray, white);
+	box-shadow: .3rem .3rem .3rem .3rem red;
+	border-radius: 1rem / 3rem;
+	position: fixed;
+	top: 0;
+	width: 92%;
+	margin: 0 auto;
+	text-align: center;
+	letter-spacing: 2rem;
+}
+
+ul{
+	list-style-type: none;
+}
+
+nav{
+	float: left;
+	position: fixed;
+	width: 20%;
+}
+
+a{
+	color: red;
+	font-size: 1.75rem;
+	outline: none;
+	text-decoration: none;
+    display: block;
+    margin-bottom: 2rem;
+    text-align: center;
+	background: linear-gradient(lightgray, white);
+	text-shadow: .05rem .05rem .05rem black;
+	box-shadow: .2rem .2rem .2rem .2rem red;
+	border-radius: 1rem / 4rem;
+	line-height: 200%;
+}
+
+a:visited{
+	color: red;
+}
+
+a:focus,
+a:hover{
+	color: darkgray;
+}
+
+a:active{
+	color: darkgray;
+	box-shadow: inset .2rem .2rem .1rem red;
+}
+
+
+p, li.qualities{
+	color: darkgray;
+	font-size: 1.5rem;
+	text-align: center;
+}
+	
+h2, h3{
+	color: red;
+	font-size: 2rem;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+h2{
+	padding-top: 5rem;
+}
+
+ol{
+	padding-bottom: 5rem;
+}
+
+#toenail{
+	color: red;
+	position: fixed;
+	bottom: 0;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-size: 1.75rem;
+	font-weight: bold;
+	padding-bottom: 2rem;
+}
+
+footer{
+	text-align: center;
+}
+
+#job{
+	text-align: center;
+	padding-top: 20rem;
+	color: red;
+	font-style: italic;
+}
+	
+#about{
+	width: 65%;
+	text-align: center;
+	line-height: 3rem;
+    padding-left: 25rem;
+    padding-bottom: 5rem;	
+}
+
+li.qualities{
+	padding-bottom: 2rem;
+}
+	
+
+
+
